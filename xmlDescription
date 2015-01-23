@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/15.0">
+  <id>com.zzf.brush</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>brush</filename>
+  <description/>
+  <name>brush</name>
+  <copyright/>
+  <initialWindow>
+    <content>brush.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>auto</renderMode>
+    <autoOrients>false</autoOrients></initialWindow>
+  <icon>
+    
+    
+    
+    
+    <image48x48>icons/icon48x48.png</image48x48>
+    <image72x72>icons/icon72x72.png</image72x72>
+    <image36x36>icons/icon36x36.png</image36x36></icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  
+  <iPhone>
+    <InfoAdditions><![CDATA[
+  <key>UIDeviceFamily</key>
+  <array>
+    <string>1</string>
+    <string>2</string>
+  </array>
+]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>  
+  
+  
+  <versionLabel/>
+  
+  <android>
+    <manifestAdditions><![CDATA[<manifest>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+</manifest>]]></manifestAdditions>
+  </android>
+  
+  
+  <supportedLanguages>en</supportedLanguages>
+  
+  
+  
+  <extensions>
+    <extensionID>com.distriqt.Beacon</extensionID>
+  </extensions>
+</application>
